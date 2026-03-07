@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@variant dark (&.dark);
+
+@theme {
+  --color-basketball-50: #f0f4ff;
+  --color-basketball-100: #e0e9ff;
+  --color-basketball-200: #c7d7ff;
+  --color-basketball-300: #a4b5ff;
+  --color-basketball-400: #818dff;
+  --color-basketball-500: #6366f1;
+  --color-basketball-600: #4f46e5;
+  --color-basketball-700: #4338ca;
+  --color-basketball-800: #3730a3;
+  --color-basketball-900: #312e81;
+  --color-basketball-950: #1e1b4b;
+
+  --color-duke-50: #f0f4ff;
+  --color-duke-100: #e0e9ff;
+  --color-duke-200: #c7d7ff;
+  --color-duke-300: #a4b5ff;
+  --color-duke-400: #818dff;
+  --color-duke-500: #5555ff;
+  --color-duke-600: #0033a0;
+  --color-duke-700: #001f3f;
+  --color-duke-800: #001530;
+  --color-duke-900: #000b1f;
+  --color-duke-950: #000815;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+}
