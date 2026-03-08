@@ -38,6 +38,14 @@ export default function Navbar() {
             </li>
             <li>
               <Link
+                href="/roster"
+                className="hover:text-duke-200 transition text-sm lg:text-base"
+              >
+                Roster
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/league"
                 className="hover:text-duke-200 transition text-sm lg:text-base"
               >
